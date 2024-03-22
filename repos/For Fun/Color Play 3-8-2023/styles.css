@@ -1,0 +1,97 @@
+.flexy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.color-magic {
+  width: 200px;
+  height: 200px;
+  animation-name: magicCast;
+  animation-duration: 19.9s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  z-index: 5;
+}
+
+.color-magic2 {
+  position: absolute;
+  z-index: 0;
+  width: 400px;
+  height: 400px;
+  animation-name: magicCast;
+  animation-duration: 21s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 4;
+}
+
+.color-magic3 {
+  position: absolute;
+  z-index: 0;
+  width: 600px;
+  height: 600px;
+  animation-name: magicCast;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  z-index: 3;
+}
+
+.color-magic4 {
+  position: absolute;
+  z-index: 0;
+  width: 800px;
+  height: 800px;
+  animation-name: magicCast;
+  animation-duration: 19.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  z-index: 2;
+}
+
+.color-magic5 {
+  position: absolute;
+  z-index: 0;
+  width: 1000px;
+  height: 1000px;
+  animation-name: magicCast;
+  animation-duration: 19s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  z-index: 1;
+}
+
+@keyframes magicCast {
+  0% {
+    background-color: #282a36;
+  }
+  10% {
+    background-color: #44475a;
+  }
+  20% {
+    background-color: #6272a4;
+  }
+  30% {
+    background-color: #8be9fd;
+  }
+  40% {
+    background-color: #50fa7b;
+  }
+  50% {
+    background-color: #ffb86c;
+  }
+  60% {
+    background-color: #ff79c6;
+  }
+  70% {
+    background-color: #bd93f9;
+  }
+  80% {
+    background-color: #ff5555;
+  }
+  90% {
+    background-color: #f1fa8c;
+  }
+}
